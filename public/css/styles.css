@@ -1,0 +1,84 @@
+body {
+
+  height: 100vh;
+
+  background-color: rgb(52, 94, 133);
+
+}
+
+header {
+
+  background-color: cornsilk;
+
+  border: 1px solid cornsilk;
+
+}
+
+header h1 {
+
+  text-align: center;
+
+}
+
+.gallery {
+
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+
+  max-width: 90vw;
+
+  margin: auto 60px;
+
+}
+
+.gallery img {
+
+  margin: 0.5em;
+  
+}
+
+.gallery .card {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 1em;
+}
+
+.gallery .card img {
+
+  border: 2px solid white;
+  border-radius: 9px;
+  
+}
+
+.gallery .card figcaption {
+
+  border: 1px solid black;
+  padding: 10px 14px;
+  border-radius: 9px;
+
+  background-color: rgb(251, 248, 232);
+
+}
+
+.gallery .card a {
+  
+  text-decoration: none;
+
+  padding: 4px 14px;
+  border-radius: 9px;
+
+  background-color: cornsilk;
+  
+}
+
+.gallery .card a:hover {
+
+  background-color: rgb(165, 165, 165);
+
+}
