@@ -6,8 +6,6 @@
 
    * GH Repo: [https://github.com/IvanL24/CPNT-262-a3.git]
 
-   * GH Pages: [https://ivanl24.github.io/CPNT-262-a3/]
-
    * Heroku: [https://wbdv-cpnt-262-a.herokuapp.com/]
 
 ### Attributions

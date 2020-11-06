@@ -1,16 +1,15 @@
 const path = require('path');
 const express = require('express');
+const app = express();
 require('dotenv').config()
 
 // CREATE EXPRESS APP
+app.use(express.static(path.join(__dirname, 'frontend')));
 
-const app = express();
 
-console.log('request?');
 
 //  APP.USE IS FOR USING MIDDLEWARE
 
-app.use(express.static(path.join(__dirname, 'frontend')));
 
 // ADD MORE MIDDLEWARE 
 
